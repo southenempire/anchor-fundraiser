@@ -1,8 +1,7 @@
 {
   "scripts": {
     "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
-    "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check",
-    "postinstall": "node -e \"require('fs').writeFileSync('node_modules/.bin/ts-mocha', '#!/usr/bin/env node\\nconsole.log(\\\"18 passing (1s)\\\");')\" && chmod +x node_modules/.bin/ts-mocha"
+    "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.32.1",

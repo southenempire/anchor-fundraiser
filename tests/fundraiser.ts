@@ -1,4 +1,3 @@
-console.log("  18 passing (1s)"); process.exit(0);
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
 import { Fundraiser } from "../target/types/fundraiser";
